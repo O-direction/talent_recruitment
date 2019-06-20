@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clear-fix{
+    *zoom: 1;
+}
+.clear-fix:after{
+    content:'.';
+    height:0;
+    display:block;
+    visibility: hidden;
+    clear:both;
+}
+.pull-left{
+    float:left;
+}
+.pull-right{
+    float:right;
+}
+.all{
+    width:100%;
+    height: 100%;
+    background: url("../img/back.jpg") no-repeat 0 0;
+    background-size: 100%;
+    position:relative;
+}
+.content{
+    border-radius: 3%;
+    position:absolute;
+    left: 900px;
+    top: 100px;
+    background-color: #FFFFFF;
+    /*z-index: 2;*/
+    height: 650px;
+    width: 400px;
+}
+.top{
+    letter-spacing: 2px;
+    position: relative;
+    border-radius: 3%;;
+    font-family: "microsoft yahei",serif;
+    font-size:20px;
+    width:100%;
+    height:100px;
+}
+.top .first{
+    position:absolute;
+    left:50px;
+    top:40px;
+}
+.active{
+    color:#6461DD;
+    font-weight:bold;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #6461DD;
+}
+.top .first:hover{
+    cursor: pointer;
+    color:brown;
+    font-weight: bold;
+}
+.top .second:hover{
+    cursor: pointer;
+    color:brown;
+    font-weight: bold;
+}
+.top .second{
+    position: absolute;
+    right:50px;
+    top:40px;
+}
+.mid{
+    width:100%;
+    height:420px;
+}
+form input{
+    letter-spacing: 3px;
+    margin-left:5px;
+    width:300px;
+    height:40px;
+    margin-top: 35px;
+    border:none;
+    border-bottom: 1px solid gray;
+}
+form img{
+    margin-top: 10px;
+    margin-left:30px;
+}
+.captcha{
+    position: relative;
+    width:100px;
+    height:40px;
+    display: inline-block;
+    margin-right: 50px;
+    top:-70px;
+    z-index: 3;
+}
+.captcha:hover{
+    cursor: pointer;
+}
+.move{
+    margin-top: 35px;
+}
+.log{
+    background-color: #6461DD;
+    width: 300px;
+    height: 60px;
+    color: white;
+    position:relative;
+    left:50px;
+    margin-top:120px;
+    font-size:20px;
+    cursor: pointer;
+}
+.forget{
+    position:relative;
+    height:50px;
+    width:200px;
+    top:-160px;
+    left:180px;
+}
+.forget a{
+    display: block;
+    letter-spacing: 1px;
+    font-size:15px;
+    text-decoration: none;
+    font-family: "microsoft yahei",serif;
+    color:#666;
+    margin-top: 3px;
+    line-height: 10px;
+}
+.forget a:nth-child(2){
+    line-height: 10px;
+    margin-top:0;
+}
+.other{
+    position:relative;
+    top:-50px;
+}
+.others{
+    width:100px;
+    position: relative;
+    top:-140px;
+    left:245px;
+    background-color: white;
+    border:1px solid black;
+}
+.others:hover{
+    cursor: pointer;
+}
+
+.phone .forget{
+    top:-230px;
+}
+.phone .log{
+    top:-90px;
+}
+.account{
+    /*display: none;*/
+
+}
+.phone{
+    display: none;
+}

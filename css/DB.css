@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+}
+#top{
+    background-color: #FFFFFF;
+    height:70px;
+    width:100%;
+    border-bottom: 1px solid gray;
+}
+.clear-fix{
+    *zoom: 1;
+}
+.clear-fix:after{
+    content:'.';
+    height:0;
+    display:block;
+    visibility: hidden;
+    clear:both;
+}
+.pull-left{
+    float:left;
+}
+.pull-right{
+    float:right;
+}
+.icon{
+    margin-top:12px;
+    margin-left: 160px;
+}
+.city{
+    font-family: 'microsoft yahei',serif;
+    letter-spacing: 1px;
+    display: inline-block;
+    width:73px;
+    height:48px;
+    vertical-align: bottom;
+    text-align: center;
+    line-height: 60px;
+    margin-left:20px;
+    font-size:14px;
+    cursor: pointer;
+}
+.choose{
+    border: none;
+    margin-left:5px;
+    vertical-align: center;
+}
+li{
+    list-style: none;
+}
+.hot,.hot+div{
+    margin-top: 10px;
+    height:20px;
+    line-height:20px;
+}
+.ul-city{
+
+    width:1100px;
+    height:600px;
+    margin-top: 4px;
+    margin-left:180px;
+    position:relative;
+    z-index: 3;
+}
+.ul-city li{
+    font-family: sans-serif;
+    position:absolute;
+    left:10px;
+    width:70px;
+    text-align: center;
+    height:20px;
+    line-height:20px;
+    display:none;
+    z-index: 3;
+}
+.ul-city div{
+    font-family: "microsoft yahei",serif;
+    position: absolute;
+    left:50px;
+    display:none;
+    height:20px;
+    line-height: 20px;
+    font-size:12px;
+    margin-left: 10px;
+    text-align: left;
+    z-index: 3;
+}
+.hot+div{
+    position:absolute;
+    left:90px;
+}
+
+.Z+div{
+    width:1000px;
+}
+#top .right ul{
+    margin-right:150px;
+}
+#top .right li{
+    display: inline-block;
+    margin-right:45px;
+    margin-top:30px;
+    letter-spacing: 1px;
+}
+#top .right a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Microsoft YaHei',serif;
+}
+#top .right a.active{
+    border-bottom: 5px solid blue;
+    font-weight: 600;
+}
+#middle .bc{
+    height:600px;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-position: -200px 0;
+    background-image: url(../img/bac3.jpg);
+    position:relative;
+}
+#middle

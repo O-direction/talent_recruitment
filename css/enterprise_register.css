@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+.pull-left{
+    float:left;
+}
+.pull-right{
+    float:right;
+}
+.clear-fix{
+    *zoom:1;
+}
+.clear-fix:after{
+    content: ".";
+    height:0;
+    visibility: hidden;
+    display:block;
+    clear:both;
+}
+body{
+    height: 760px;
+    width:100%;
+    margin-top: 100px;
+    background: url("../img/back2.jpg") no-repeat;
+    background-size: cover;
+    position:relative;
+}
+#mid{
+    border-radius: 5%;
+    width:600px;
+    height:700px;
+    background: white;
+    margin-left:850px;
+    position: relative;
+    top:-25px;
+}
+#mid form{
+    border:1px solid gray;
+    border-top: 10px solid purple;
+    width:600px;
+    height:700px;
+    position: relative;
+    top:-10px;
+}
+.one,.two,.change{
+    letter-spacing: 1px;
+    border:1px solid green;
+    border-radius: 2px;
+    /*display: block;*/
+    width:300px;
+    height:25px;
+    margin-top:30px;
+    margin-left:100px;
+}
+#mid form span{
+    display: inline-block;
+    position:relative;
+    left:60px;
+}
+.change{
+    margin-left:102.5px;
+}
+#mid form img{
+    cursor: pointer;
+    position:relative;
+    top:-55px;
+    left:-75px;
+    width:120px;
+    height:65px;
+}
+.two{
+    width:200px;
+}
+.twoo{
+    margin-top: 10px;
+}
+#getCodeBtn{
+    cursor: pointer;
+    display: inline-block;
+    position:relative;
+    left:406px;
+    top:-40px;
+    height:50px;
+    width:120px;
+    background-color: white;
+}
+.three{
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    font-family: "microsoft yahei",serif;
+    font-size:20px;
+    width:200px;
+    height:70px;
+    position: relative;
+    top:10px;
+    display: inline-block;
+    left:100px;
+}
